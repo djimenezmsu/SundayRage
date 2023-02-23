@@ -1,2 +1,20 @@
 # SundayRage
 A python based game combining Sunday Lawn and Galaga into one.
+
+# Enemies
+1) Level 1 Ememy
+   - Walnut
+   - Will not move()
+   - Most common
+   - Becomes cracked when taking damage
+2) Shooter enemy
+   - Peashooter
+   - Shoots towards the bottom of screen, not following user
+   - Can be ran over
+
+# Ammo
+   - Saws or blades that are picked up by the player
+   - Used when enemeis are ran over or manually shot at an enemy
+   - Powerups:
+   - Infinite ammo for 10 seconds
+   
