@@ -1,8 +1,8 @@
 # SundayRage
-A python based game combining Sunday Lawn and Galaga into one.
+A python based game combining Sunday Lawn and Galaga into one for Murray State's Professor Marc Beck in CSC-275: Game Development in Python
 
 # Enemies
-1) Level 1 Ememy
+1) Level 1 Enemy
    - Walnut
    - Will not move()
    - Most common
@@ -12,7 +12,7 @@ A python based game combining Sunday Lawn and Galaga into one.
    - Shoots towards the bottom of screen, not following user
    - Can be ran over
 
-# Ammo
+# Ammunition
    - Saws or blades that are picked up by the player
    - Used when enemeis are ran over or manually shot at an enemy
    - Powerups:
