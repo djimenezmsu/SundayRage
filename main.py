@@ -34,6 +34,7 @@ class Game:
             for event in pygame.event.get():
                 # check for closing window
                 if event.type == pygame.QUIT:
+                    self.playing = False
                     self.running = False
                 elif event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
@@ -45,7 +46,7 @@ class Game:
             # check to see if a bullet hit a mob
             hits = pygame.sprite.groupcollide(self.mobs, self.bullets, True, True)
             for hit in hits:
-                m = Mob()
+                m = Mob(self)
                 self.all_sprites.add(m)
                 self.mobs.add(m)
 
